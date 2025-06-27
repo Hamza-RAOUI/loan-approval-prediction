@@ -46,6 +46,8 @@ loan_approval_prediction/
 │   └── prediction.py
 ├── models/
 │   └── best_model.pkl
+├── notebooks/
+│   └── exploratory_data_analysis.ipynb
 ├── app.py                 # Gradio interface
 ├── requirements.txt
 ├── main.py               # Main execution script
@@ -69,12 +71,22 @@ pip install -r requirements.txt
 
 ## Usage
 
+### Exploratory Data Analysis
+
+Open and run the Jupyter notebook for comprehensive data exploration:
+
+```bash
+jupyter notebook notebooks/exploratory_data_analysis.ipynb
+```
+
 ### Training the Model
+
 ```bash
 python main.py
 ```
 
 ### Running the Web Interface
+
 ```bash
 python app.py
 ```
